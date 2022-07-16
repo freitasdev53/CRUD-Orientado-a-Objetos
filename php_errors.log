@@ -1,0 +1,29 @@
+[16-Jul-2022 19:55:42 UTC] PHP Fatal error:  Uncaught Error: Class "DB" not found in C:\inetpub\wwwroot\Crud_OO\index.php:2
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\Crud_OO\index.php on line 2
+[16-Jul-2022 20:24:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: YES) in C:\inetpub\wwwroot\Crud_OO\bd_oo.php:6
+Stack trace:
+#0 C:\inetpub\wwwroot\Crud_OO\bd_oo.php(6): PDO->__construct('mysql:servernam...')
+#1 C:\inetpub\wwwroot\Crud_OO\index.php(5): DB::conectarDatabase()
+#2 C:\inetpub\wwwroot\Crud_OO\index.php(10): cliente->inserirDatabase('max', 'max.nelvam@outl...')
+#3 {main}
+  thrown in C:\inetpub\wwwroot\Crud_OO\bd_oo.php on line 6
+[16-Jul-2022 20:47:21 UTC] PHP Fatal error:  Uncaught Error: Cannot access "self" when no class scope is active in C:\inetpub\wwwroot\Crud_OO\index.php:40
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\Crud_OO\index.php on line 40
+[16-Jul-2022 20:58:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\Crud_OO\bd_oo.php on line 4
+[16-Jul-2022 20:59:23 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\Crud_OO\bd_oo.php on line 4
+[16-Jul-2022 21:01:05 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\Crud_OO\bd_oo.php on line 4
+[16-Jul-2022 21:01:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\inetpub\wwwroot\Crud_OO\bd_oo.php on line 4
+[16-Jul-2022 21:02:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Crud::retornarDatabase() in C:\inetpub\wwwroot\Crud_OO\index.php:39
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\Crud_OO\index.php on line 39
+[16-Jul-2022 21:04:29 UTC] PHP Warning:  Undefined array key "Cliente" in C:\inetpub\wwwroot\Crud_OO\index.php on line 43
+[16-Jul-2022 21:04:29 UTC] PHP Warning:  Undefined array key "Cliente" in C:\inetpub\wwwroot\Crud_OO\index.php on line 43
+[16-Jul-2022 21:18:46 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type mysqli_result as array in C:\inetpub\wwwroot\Crud_OO\index.php:28
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\Crud_OO\index.php on line 28
